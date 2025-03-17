@@ -1,0 +1,22 @@
+# 编译输出
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试覆盖率文件
+*.out
+
+# IDE文件
+.idea/
+.vscode/
+
+# 依赖目录
+vendor/
+
+# 日志文件
+*.log
+
+# 配置文件（可能包含敏感信息）
+configs/*.local.yaml
